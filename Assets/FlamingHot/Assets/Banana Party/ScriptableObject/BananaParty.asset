@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f712b5079a659404fbd1240a93282055, type: 3}
+  m_Name: BananaParty
+  m_EditorClassIdentifier: 
+  gameName: Banana Party
+  column: 5
+  row: 3
+  lineCountList: 050000000a0000000f0000001400000019000000
+  notChangeLineCount: 0
+  font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  winOccur:
+    lineWin: 100
+    bonus: 0
+    freeSpin: 0
+    gamble: 0
+  bets:
+  - 0.5
+  - 1
+  - 1.5
+  - 2.5
+  - 5
+  - 10
+  betMultipler: 1
+  bonusRewards: []
+  NumberAutoPlay: 050000000a000000190000003200000064000000f4010000e8030000
+  symbols:
+  - type: 5
+    symbol: {fileID: 21300000, guid: 3b0564305a507ff4e86bf01bcf6eeb61, type: 3}
+    blurSymbol: {fileID: 21300000, guid: 3b0564305a507ff4e86bf01bcf6eeb61, type: 3}
+    anims: []
+    rewards:
+    - 0
+    - 0
+    - 40
+    - 750
+    - 1000
+    appearOccur: 15
+  - type: 3
+    symbol: {fileID: 21300000, guid: 26a35eefbe2bcaa4bb13f1cf3e04a691, type: 3}
+    blurSymbol: {fileID: 21300000, guid: 26a35eefbe2bcaa4bb13f1cf3e04a691, type: 3}
+    anims: []
+    rewards:
+    - 0
+    - 0
+    - 125
+    - 500
+    - 12500
+    appearOccur: 15
+  - type: 0
+    symbol: {fileID: 21300000, guid: fa71fbe1f3c2e45429aaea11dffd5bb9, type: 3}
+    blurSymbol: {fileID: 21300000, guid: fa71fbe1f3c2e45429aaea11dffd5bb9, type: 3}
+    anims: []
+    rewards:
+    - 0
+    - 0
+    - 10
+    - 50
+    - 500
+    appearOccur: 20
+  - type: 0
+    symbol: {fileID: 21300000, guid: a98836157597ee349b5070383317b653, type: 3}
+    blurSymbol: {fileID: 21300000, guid: a98836157597ee349b5070383317b653, type: 3}
+    anims: []
+    rewards:
+    - 0
+    - 0
+    - 10
+    - 40
+    - 200
+    appearOccur: 25
+  - type: 0
+    symbol: {fileID: 21300000, guid: d952dec9e8b6dc04695614d437aae8a1, type: 3}
+    blurSymbol: {fileID: 21300000, guid: d952dec9e8b6dc04695614d437aae8a1, type: 3}
+    anims: []
+    rewards:
+    - 0
+    - 0
+    - 10
+    - 40
+    - 200
+    appearOccur: 30
+  - type: 0
+    symbol: {fileID: 21300000, guid: 896df753163d6b543844043bbd092a8b, type: 3}
+    blurSymbol: {fileID: 21300000, guid: 896df753163d6b543844043bbd092a8b, type: 3}
+    anims: []
+    rewards:
+    - 0
+    - 0
+    - 5
+    - 20
+    - 100
+    appearOccur: 40
+  - type: 0
+    symbol: {fileID: 21300000, guid: 35a48d83e90bcf940bc3e2241e5a51e9, type: 3}
+    blurSymbol: {fileID: 21300000, guid: 35a48d83e90bcf940bc3e2241e5a51e9, type: 3}
+    anims: []
+    rewards:
+    - 0
+    - 0
+    - 5
+    - 20
+    - 100
+    appearOccur: 40
+  - type: 0
+    symbol: {fileID: 21300000, guid: 709af2bf350b78f44916a36a2b0a007d, type: 3}
+    blurSymbol: {fileID: 21300000, guid: 709af2bf350b78f44916a36a2b0a007d, type: 3}
+    anims: []
+    rewards:
+    - 0
+    - 0
+    - 5
+    - 20
+    - 100
+    appearOccur: 40
+  winningLines:
+  - positions: 0100000001000000010000000100000001000000
+    sprite: {fileID: -729848317111800829, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0200000002000000020000000200000002000000
+    sprite: {fileID: 2992021059522813734, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0000000000000000000000000000000000000000
+    sprite: {fileID: 8563779344347924539, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0200000001000000000000000100000002000000
+    sprite: {fileID: 7816252765288831513, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0000000001000000020000000100000000000000
+    sprite: {fileID: 6921570694773575043, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0200000002000000010000000000000000000000
+    sprite: {fileID: 2084644683700128804, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0000000000000000010000000200000002000000
+    sprite: {fileID: -5958501854805602658, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0100000002000000010000000000000001000000
+    sprite: {fileID: -5099332489305778936, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0100000000000000010000000200000001000000
+    sprite: {fileID: 1116707085320615333, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0200000001000000020000000100000002000000
+    sprite: {fileID: 3424215950235699102, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0000000001000000000000000100000000000000
+    sprite: {fileID: 4206508424946044205, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0200000001000000010000000100000001000000
+    sprite: {fileID: 759592306994251132, guid: 170029405f7092b458a2b9e1488ba33f, type: 3}
+  - positions: 0000000001000000010000000100000001000000
+    sprite: {fileID: -2372233890963049845, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0100000001000000020000000200000002000000
+    sprite: {fileID: -1268983962359200846, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0100000001000000000000000000000000000000
+    sprite: {fileID: -5065613529965820446, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0100000002000000020000000200000002000000
+    sprite: {fileID: -1958138018229322650, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0100000000000000000000000000000000000000
+    sprite: {fileID: 1071566756779171882, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0200000002000000020000000200000001000000
+    sprite: {fileID: -9203421379844442981, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0000000000000000000000000000000001000000
+    sprite: {fileID: -7273443955371995790, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0000000000000000010000000000000000000000
+    sprite: {fileID: -4753172112317400179, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0200000002000000010000000200000002000000
+    sprite: {fileID: -3806851954367968198, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0200000001000000010000000100000002000000
+    sprite: {fileID: -7163706904955475458, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0000000001000000010000000100000000000000
+    sprite: {fileID: -1693559206192668686, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0000000002000000020000000200000000000000
+    sprite: {fileID: -8737807673619084276, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  - positions: 0200000000000000000000000000000002000000
+    sprite: {fileID: 3215886133061875212, guid: 170029405f7092b458a2b9e1488ba33f,
+      type: 3}
+  currency: 0
