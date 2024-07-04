@@ -94,6 +94,7 @@ public abstract class Spawner : MyMonoBehaviour
 
     public virtual void Despawn(Transform obj)
     {
+        if (poolObjs.Contains(obj)) return;
         this.poolObjs.Add(obj);
         obj.gameObject.SetActive(false);
         this.spawnedCount--;
